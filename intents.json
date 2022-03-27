@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "how are you"],
+      "responses": ["Are you fully/partially vaccinated against COVID-19 ?"]
+    },
+    {
+      "tag": "test",
+      "patterns": ["fully", "partially"],
+      "responses": [
+        "Currently are you Covid (delta/omicron variant) positive or negative ?"
+      ]
+    },
+
+    {
+      "tag": "answer",
+      "patterns": ["okay", "yes", "no"],
+      "responses": [
+        "Do you have any of these life threatning symptoms? -Runny nose /Headache /Sneezing /Scratchy,dry throat /Extreme tiredness /Pain or pressure in the chest /Persistent cough",
+        "In the last two weeks, have you been in close contact with someone who has COVID-19?",
+        "In the last 10 days, have you been tested for the coronavirus/omicron that causes COVID-19?",
+        "In last two weeks, have you worked or volunteered in a healthcare facility? Health care facilities include a hospital, medical or dental clinic, or nursing home.",
+        "Do you have or have you had any of the following ? - Cancer /Chronic liver disease /Chronic lung disease /Diabetes /Overweight and obesity /Pregnancy /Tuberculosis"
+      ]
+    },
+    {
+      "tag": "covidp",
+      "patterns": ["positive"],
+      "responses": [
+        "Isolate yourself and take paracetamol, crocin or dolo in case the fever is above 100 degrees and do betadine gargle with warm water 4 to 5 times a day to cure sore throat. Practising steam inhalation twice a day will be a great idea."
+      ]
+    },
+    {
+      "tag": "Tips",
+      "patterns": ["Give me more tips", "T"],
+      "responses": [
+        "Stay at home and eat food high in protein ,healthy fats ,antioxidants to promote cell regenaration and avoid excessive sugars.",
+        "Take cocunut water/kadha and avoid fruit juices/caffeine.",
+        "For faster recovery - do pranayam, lie on your stomach and walk for about 10 minutes, twice daily.",
+        "Monitor your body temperature, pulse, oxygen saturation levels and respiratory rate regularly by using a portable finger pulse oximeter",
+        "Do meditation as in case of Covid where a patient has to win the battle alone without any physical contact of his/her loved ones, mental health surely gets hampered",
+        "Do not take any medicine without prior consulation of doctor"
+      ]
+    },
+    {
+      "tag": "covidn",
+      "patterns": ["negative"],
+      "responses": [
+        "Take a rapid antigen test and if it comes positive then you can rely on it but if it is negative and you suspect covid, it's best to get a PCR test to double check since the PCR test is more sensitive."
+      ]
+    },
+    {
+      "tag": "closing",
+      "patterns": ["Thanks for guiding me"],
+      "responses": [
+        "The Omicron variant is spreading rapidly around the world. Sneezing is the key in spreading virus.So always put a cloth on your mouth or wear N95 masks.People need to get their booster shots for the most protection.",
+        "If you are unsure if you have a Cold or COVID, get tested as soon as possible."
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": ["Sure COVID bot"],
+      "responses": [
+        "* India is adding approximately 20.4 crore beneficiaries to the Covid-19 vaccination drive as Children aged between 15 and 18 will be eligible for Covid-19 vaccination from January 3. Healthcare and frontline workers, and those above 60 years with comorbidities will receive booster doses from January 10 after 39 weeks from the 2nd dose.---> Get yourself and your dear ones vaccinated by booking an appointment on Co-WIN and download your vaccination certificate."
+      ]
+    }
+  ]
+}
